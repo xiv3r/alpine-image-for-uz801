@@ -37,7 +37,9 @@ git clone https://github.com/kshipeng/alpine-image-for-uz801.git && cd alpine-im
   ```
   ssh root@192.168.5.1
   ```
+- 连接Wi-Fi
   
+  ssh登录后，执行`nmtui`，先删除Wi-Fi下的热点，然后连接自己Wi-Fi即可 
 #### LED灯设置
 ```
 vi /etc/local.d/00-leds.start
